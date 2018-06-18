@@ -15,15 +15,12 @@ public class CodeForcesTool {
 
     private void run(String[] args) throws IOException {
         Options options = new Options();
-
         Option input = new Option("c", "command", true, "Command: problems - get problems and put them into CSV");
         input.setRequired(true);
         options.addOption(input);
-
         Option output = new Option("o", "output", true, "output file (for different commands)");
         output.setRequired(true);
         options.addOption(output);
-
         CommandLineParser parser = new DefaultParser();
         HelpFormatter formatter = new HelpFormatter();
         CommandLine cmd = null;
@@ -56,10 +53,9 @@ public class CodeForcesTool {
         for (Problem problem: problems) {
             writer.write(problem.name);
             writer.write(",");
-            writer.write(problem.contestId);
+            writer.write(problem.contestId+" ");
             writer.newLine();
         }
-
         writer.close();
     }
 }
