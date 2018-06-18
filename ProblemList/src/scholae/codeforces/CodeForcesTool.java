@@ -42,7 +42,7 @@ public class CodeForcesTool {
             formatter.printHelp("CodeForcesTool", options);
         }
     }
-
+    final static String UrlProblem = "http://codeforces.com/problemset/problem/";
     private void createProblemsCSV(String outputFileName) throws IOException {
         Problem[] problems = CodeForces.getProblems();
 
@@ -53,7 +53,7 @@ public class CodeForcesTool {
         for (Problem problem: problems) {
             writer.write(problem.name);
             writer.write(",");
-            writer.write(problem.contestId+" ");
+            writer.write(UrlProblem+problem.contestId+"/"+problem.index);
             writer.newLine();
         }
         writer.close();
