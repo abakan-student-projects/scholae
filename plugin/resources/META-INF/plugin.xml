@@ -34,6 +34,7 @@
              text="Scholae" description="Scholae button">
       <add-to-group group-id="FileMenu" anchor="first"/>
       <add-to-group group-id="ToolsMenu" anchor="first"/>
+      <add-to-group group-id="WelcomeScreen.QuickStart" anchor="first"/>
     </action>
   </actions>
 
