@@ -21,17 +21,19 @@
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
        on how to target different products -->
   <!-- uncomment to enable plugin in all products
+
   <depends>com.intellij.modules.lang</depends>
-  -->
+   -->
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
   </extensions>
 
   <actions>
-    <action id="Educational.Scholae" class="scholae.plugin.actions.OpenScholaeActions">
-      <add-to-group group-id="WelcomeScreen.QuickStart" anchor="first"/>
+    <action  id="scholae.plugin.actions.OpenScholaeAction" class="scholae.plugin.actions.OpenScholaeAction"
+             text="Scholae" description="Scholae button">
       <add-to-group group-id="FileMenu" anchor="first"/>
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
     </action>
   </actions>
 
