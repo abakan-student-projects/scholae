@@ -6,6 +6,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.HashSet;
 
 public class CodeForcesTool {
 
@@ -38,24 +39,49 @@ public class CodeForcesTool {
 
         if ("problems".equals(commandName)) {
             createProblemsCSV(cmd.getOptionValue("output"));
-        } else {
+        } else if ("tags".equals(commandName)) {
+            createTagsCSV(cmd.getOptionValue("output"));
+        }
+        {
             formatter.printHelp("CodeForcesTool", options);
         }
+
     }
+
     final static String UrlProblem = "http://codeforces.com/problemset/problem/";
+
     private void createProblemsCSV(String outputFileName) throws IOException {
         Problem[] problems = CodeForces.getProblems();
-
         File file = new File(outputFileName);
         file.createNewFile();
         BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-
-        for (Problem problem: problems) {
+        for (Problem problem : problems) {
             writer.write(problem.name);
             writer.write(",");
-            writer.write(UrlProblem+problem.contestId+"/"+problem.index);
+            writer.write(UrlProblem + problem.contestId + "/" + problem.index);
             writer.newLine();
         }
+        writer.close();
+    }
+
+    private void createTagsCSV(String outputFile) throws IOException {
+        Problem[] problems = CodeForces.getProblems();
+        HashSet<String> tags = new HashSet<>();
+        File file = new File(outputFile);
+        file.createNewFile();
+        BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+        for (Problem problem : problems) {
+            int j = problem.tags.length;
+            for (int i=0;i<j;i++){
+                String str = problem.tags[i];
+                tags.add(str);
+            }
+        }
+
+       for (String item:tags){
+            writer.write(item);
+            writer.newLine();
+       }
         writer.close();
     }
 }

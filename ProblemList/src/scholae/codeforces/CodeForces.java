@@ -42,4 +42,5 @@ public class CodeForces{
         ProblemsetProblemsResponse response = gson.fromJson(data, ProblemsetProblemsResponse.class);
         return (response.result != null) ? response.result.problems : null;
     }
+
 }
