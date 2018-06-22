@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de9b6af1-7c03-47d8-a1c3-59cb2c1a9b5e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scholae/plugin/actions/OpenScholaeAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scholae/plugin/actions/OpenScholaeAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,48 +19,33 @@
       <file leaf-file-name="OpenScholaeAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scholae/plugin/actions/OpenScholaeAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dialog.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/awt/Dialog.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="277" column="20" selection-start-line="277" selection-start-column="20" selection-end-line="277" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OpenScholaeDialogs.form" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OpenScholaeDialogs.form" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
       </file>
-      <file leaf-file-name="OpenScholaeDialogs.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OpenScholaeDialogs.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="227">
+              <caret line="80" column="56" lean-forward="true" selection-start-line="80" selection-start-column="56" selection-end-line="80" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#678#880#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#3001#3200#0" expanded="true" />
+                <element signature="e#3199#3200#0" expanded="true" />
+                <element signature="e#3022#3023#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnAction.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnAction.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -71,7 +53,7 @@
       <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="412">
               <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
             </state>
           </provider>
@@ -109,8 +91,8 @@
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialog.java" />
         <option value="$PROJECT_DIR$/src/scholae/plugin/actions/OpenScholaeAction.java" />
-        <option value="$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.java" />
         <option value="$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.form" />
+        <option value="$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.java" />
       </list>
     </option>
   </component>
@@ -121,10 +103,15 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1366" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -132,7 +119,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,8 +171,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Course" />
     </panes>
   </component>
@@ -308,31 +295,39 @@
       <option name="project" value="LOCAL" />
       <updated>1529385097306</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Issue #2 Create an entry point for the plugin">
+      <created>1529474644991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529474644991</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.48078975" weight="0.32489452" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.48030302" weight="0.32389936" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51974386" side_tool="true" visible="true" weight="0.22468354" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48025614" visible="true" weight="0.22468354" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5212121" side_tool="true" weight="0.22327045" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47878787" visible="true" weight="0.22327045" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49848485" weight="0.32861635" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32861635" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12433298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19469696" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32861635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -340,7 +335,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -358,12 +352,59 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/scholae/plugin/actions/OpenScholaeAction.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/awt/Dialog.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4155">
+          <caret line="277" column="20" selection-start-line="277" selection-start-column="20" selection-end-line="277" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#678#880#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#3001#3200#0" expanded="true" />
+            <element signature="e#3199#3200#0" expanded="true" />
+            <element signature="e#3022#3023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnAction.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scholae/plugin/actions/OpenScholaeAction.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -384,6 +425,11 @@
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="14" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#678#880#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#3001#3200#0" expanded="true" />
+            <element signature="e#3199#3200#0" expanded="true" />
+            <element signature="e#3022#3023#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -402,21 +448,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialog.java" />
     <entry file="file://$PROJECT_DIR$/src/scholae/plugin/actions/OpenScholaeAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -441,8 +479,6 @@
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -539,20 +575,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scholae/plugin/actions/OpenScholaeActions.kt" />
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/Dialog.java" />
     <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/h.form" />
     <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/h.java" />
-    <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialog.java" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnAction.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="15">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -563,29 +593,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scholae/plugin/actions/OpenScholaeAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnAction.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -594,6 +612,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.form">
       <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scholae/plugin/view/OpenScholaeDialogs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="80" column="56" lean-forward="true" selection-start-line="80" selection-start-column="56" selection-end-line="80" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#678#880#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#3001#3200#0" expanded="true" />
+            <element signature="e#3199#3200#0" expanded="true" />
+            <element signature="e#3022#3023#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
